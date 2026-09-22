@@ -1,0 +1,163 @@
+# 提供画像6枚をもとに、モデル名と確認できるバージョンを記載。
+# openapi_api_version は画像の項目名・値を保持した API バージョン。
+# model_version は別項目。gpt-4o のモデル名に含まれる日付を分離。
+models:
+  codex-mini:
+    model_name: codex-mini
+
+  gpt-41:
+    model_name: gpt-4.1
+    openapi_api_version: "2024-02-01"
+
+  gpt-41-mini:
+    model_name: gpt-4.1-mini
+    openapi_api_version: "2024-02-01"
+
+  gpt-41-nano:
+    model_name: gpt-4.1-nano
+    openapi_api_version: "2024-02-01"
+
+  gpt-4o-2024-11-20:
+    model_name: gpt-4o
+    model_version: "2024-11-20"
+    openapi_api_version: "2024-02-01"
+
+  gpt-4o-mini-transcribe:
+    model_name: gpt-4o-mini-transcribe
+    openapi_api_version: "2025-04-01-preview"
+
+  gpt-4o-mini-tts:
+    model_name: gpt-4o-mini-tts
+    openapi_api_version: "2025-04-01-preview"
+
+  gpt-4o-transcribe:
+    model_name: gpt-4o-transcribe
+    openapi_api_version: "2025-04-01-preview"
+
+  gpt-4o-transcribe-diarize:
+    model_name: gpt-4o-transcribe-diarize
+    openapi_api_version: "2025-04-01-preview"
+
+  gpt-5:
+    model_name: gpt-5
+    openapi_api_version: "2024-10-21"
+
+  gpt-5-mini:
+    model_name: gpt-5-mini
+    openapi_api_version: "2024-10-21"
+
+  gpt-5-nano:
+    model_name: gpt-5-nano
+    openapi_api_version: "2024-10-21"
+
+  gpt-5-pro:
+    model_name: gpt-5-pro
+
+  gpt-51:
+    model_name: gpt-5.1
+    openapi_api_version: "2024-10-21"
+
+  gpt-51-codex:
+    model_name: gpt-5.1-codex
+
+  gpt-51-codex-max:
+    model_name: gpt-5.1-codex-max
+
+  gpt-51-codex-mini:
+    model_name: gpt-5.1-codex-mini
+
+  gpt-52:
+    model_name: gpt-5.2
+    openapi_api_version: "2024-10-21"
+
+  gpt-52-codex:
+    model_name: gpt-5.2-codex
+
+  gpt-53-codex:
+    model_name: gpt-5.3-codex
+
+  gpt-54:
+    model_name: gpt-5.4
+    openapi_api_version: "2024-10-21"
+
+  gpt-54-mini:
+    model_name: gpt-5.4-mini
+    openapi_api_version: "2024-10-21"
+
+  gpt-54-nano:
+    model_name: gpt-5.4-nano
+    openapi_api_version: "2024-10-21"
+
+  gpt-54-pro:
+    model_name: gpt-5.4-pro
+
+  gpt-56-luna:
+    model_name: gpt-5.6-luna
+    openapi_api_version: "2024-10-21"
+
+  gpt-56-sol:
+    model_name: gpt-5.6-sol
+    openapi_api_version: "2024-10-21"
+
+  gpt-56-terra:
+    model_name: gpt-5.6-terra
+    openapi_api_version: "2024-10-21"
+
+  gpt-6-astra:
+    model_name: gpt-6-astra
+    openapi_api_version: "2025-04-01-preview"
+
+  gpt-chat-latest:
+    model_name: gpt-chat-latest
+    openapi_api_version: "2025-04-01-preview"
+
+  gpt-image-1:
+    model_name: gpt-image-1
+    openapi_api_version: "2024-02-01"
+
+  gpt-image-15:
+    model_name: gpt-image-1.5
+    openapi_api_version: "2024-02-01"
+
+  gpt-image-2:
+    model_name: gpt-image-2
+    openapi_api_version: "2025-04-01-preview"
+
+  gpt-image-25-flare:
+    model_name: gpt-image-2.5-flare
+    openapi_api_version: "2025-04-01-preview"
+
+  gpt-image-25-sunburst:
+    model_name: gpt-image-2.5-sunburst
+    openapi_api_version: "2025-04-01-preview"
+
+  gpt-transcribe:
+    model_name: gpt-transcribe
+    openapi_api_version: "2025-04-01-preview"
+
+  o1:
+    model_name: o1
+
+  o3:
+    model_name: o3
+
+  o3-mini:
+    model_name: o3-mini
+
+  o3-pro:
+    model_name: o3-pro
+
+  o4-mini:
+    model_name: o4-mini
+
+  text-embedding-3-large:
+    model_name: text-embedding-3-large
+    openapi_api_version: "2023-05-15"
+
+  text-embedding-3-small:
+    model_name: text-embedding-3-small
+    openapi_api_version: "2023-05-15"
+
+  text-embedding-ada-002:
+    model_name: text-embedding-ada-002
+    openapi_api_version: "2023-05-15"

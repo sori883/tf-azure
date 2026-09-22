@@ -1,0 +1,447 @@
+{
+  "metadata": {
+    "generated_at": "2026-09-22T16:40:16+09:00",
+    "model_count": 43,
+    "sort_by": [
+      "model_retirement_date",
+      "model_name",
+      "model_version"
+    ],
+    "sort_direction": "ascending",
+    "source_counts": {
+      "foundry": 37,
+      "documentation": 6
+    },
+    "foundry_observed_on": "2026-09-21",
+    "documentation_checked_on": "2026-09-22",
+    "documentation_url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai",
+    "foundry_location": "eastus2",
+    "foundry_deployment_type": "GlobalStandard"
+  },
+  "models": [
+    {
+      "catalog_key": "gpt-image-1",
+      "model_name": "gpt-image-1",
+      "model_version": "2025-04-15",
+      "model_retirement_date": "2026-10-23",
+      "source": "foundry",
+      "source_observed_at": "2026-09-21T11:48:02.237Z",
+      "source_displayed_value": "Oct 23, 2026, 9:00 AM",
+      "source_view": "Foundry deployment details: Model retirement date"
+    },
+    {
+      "catalog_key": "codex-mini",
+      "model_name": "codex-mini",
+      "model_version": "2025-05-16",
+      "model_retirement_date": "2026-11-15",
+      "source": "documentation",
+      "source_url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai",
+      "source_checked_on": "2026-09-22"
+    },
+    {
+      "catalog_key": "o1",
+      "model_name": "o1",
+      "model_version": "2024-12-17",
+      "model_retirement_date": "2026-11-19",
+      "source": "documentation",
+      "source_url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai",
+      "source_checked_on": "2026-09-22"
+    },
+    {
+      "catalog_key": "o3",
+      "model_name": "o3",
+      "model_version": "2025-04-16",
+      "model_retirement_date": "2026-11-19",
+      "source": "documentation",
+      "source_url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai",
+      "source_checked_on": "2026-09-22"
+    },
+    {
+      "catalog_key": "o3-mini",
+      "model_name": "o3-mini",
+      "model_version": "2025-01-31",
+      "model_retirement_date": "2026-11-19",
+      "source": "documentation",
+      "source_url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai",
+      "source_checked_on": "2026-09-22"
+    },
+    {
+      "catalog_key": "o3-pro",
+      "model_name": "o3-pro",
+      "model_version": "2025-06-10",
+      "model_retirement_date": "2026-11-19",
+      "source": "documentation",
+      "source_url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai",
+      "source_checked_on": "2026-09-22"
+    },
+    {
+      "catalog_key": "o4-mini",
+      "model_name": "o4-mini",
+      "model_version": "2025-04-16",
+      "model_retirement_date": "2026-11-19",
+      "source": "documentation",
+      "source_url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai",
+      "source_checked_on": "2026-09-22"
+    },
+    {
+      "catalog_key": "gpt-chat-latest",
+      "model_name": "gpt-chat-latest",
+      "model_version": "2026-08-06",
+      "model_retirement_date": "2026-12-02",
+      "source": "foundry",
+      "source_observed_at": "2026-09-21T11:48:02.145Z",
+      "source_displayed_value": "Dec 2, 2026, 9:00 AM",
+      "source_view": "Foundry deployment details: Model retirement date"
+    },
+    {
+      "catalog_key": "gpt-image-15",
+      "model_name": "gpt-image-1.5",
+      "model_version": "2025-12-16",
+      "model_retirement_date": "2026-12-16",
+      "source": "foundry",
+      "source_observed_at": "2026-09-21T11:49:38.258Z",
+      "source_displayed_value": "Dec 16, 2026, 9:00 AM",
+      "source_view": "Foundry deployment details: Model retirement date"
+    },
+    {
+      "catalog_key": "gpt-4o-transcribe",
+      "model_name": "gpt-4o-transcribe",
+      "model_version": "2025-03-20",
+      "model_retirement_date": "2026-12-31",
+      "source": "foundry",
+      "source_observed_at": "2026-09-21T11:51:55.011Z",
+      "source_displayed_value": "Dec 31, 2026, 9:00 AM",
+      "source_view": "Foundry deployment details: Model retirement date"
+    },
+    {
+      "catalog_key": "gpt-5",
+      "model_name": "gpt-5",
+      "model_version": "2025-08-07",
+      "model_retirement_date": "2027-02-09",
+      "source": "foundry",
+      "source_observed_at": "2026-09-21T11:49:23.771Z",
+      "source_displayed_value": "Feb 9, 2027, 9:00 AM",
+      "source_view": "Foundry deployment details: Model retirement date"
+    },
+    {
+      "catalog_key": "gpt-5-mini",
+      "model_name": "gpt-5-mini",
+      "model_version": "2025-08-07",
+      "model_retirement_date": "2027-02-09",
+      "source": "foundry",
+      "source_observed_at": "2026-09-21T11:46:27.308Z",
+      "source_displayed_value": "Feb 9, 2027, 9:00 AM",
+      "source_view": "Foundry deployment details: Model retirement date"
+    },
+    {
+      "catalog_key": "gpt-5-nano",
+      "model_name": "gpt-5-nano",
+      "model_version": "2025-08-07",
+      "model_retirement_date": "2027-02-09",
+      "source": "foundry",
+      "source_observed_at": "2026-09-21T11:50:06.794Z",
+      "source_displayed_value": "Feb 9, 2027, 9:00 AM",
+      "source_view": "Foundry deployment details: Model retirement date"
+    },
+    {
+      "catalog_key": "gpt-5-pro",
+      "model_name": "gpt-5-pro",
+      "model_version": "2025-10-06",
+      "model_retirement_date": "2027-04-07",
+      "source": "foundry",
+      "source_observed_at": "2026-09-21T11:49:01.324Z",
+      "source_displayed_value": "Apr 7, 2027, 9:00 AM",
+      "source_view": "Foundry deployment details: Model retirement date"
+    },
+    {
+      "catalog_key": "gpt-41",
+      "model_name": "gpt-4.1",
+      "model_version": "2025-04-14",
+      "model_retirement_date": "2027-04-14",
+      "source": "foundry",
+      "source_observed_at": "2026-09-21T11:47:18.650Z",
+      "source_displayed_value": "Apr 14, 2027, 9:00 AM",
+      "source_view": "Foundry deployment details: Model retirement date"
+    },
+    {
+      "catalog_key": "gpt-41-mini",
+      "model_name": "gpt-4.1-mini",
+      "model_version": "2025-04-14",
+      "model_retirement_date": "2027-04-14",
+      "source": "foundry",
+      "source_observed_at": "2026-09-21T11:53:31.294Z",
+      "source_displayed_value": "Apr 14, 2027, 9:00 AM",
+      "source_view": "Foundry deployment details: Model retirement date"
+    },
+    {
+      "catalog_key": "gpt-41-nano",
+      "model_name": "gpt-4.1-nano",
+      "model_version": "2025-04-14",
+      "model_retirement_date": "2027-04-14",
+      "source": "foundry",
+      "source_observed_at": "2026-09-21T11:46:27.360Z",
+      "source_displayed_value": "Apr 14, 2027, 9:00 AM",
+      "source_view": "Foundry deployment details: Model retirement date"
+    },
+    {
+      "catalog_key": "gpt-4o-2024-11-20",
+      "model_name": "gpt-4o",
+      "model_version": "2024-11-20",
+      "model_retirement_date": "2027-04-14",
+      "source": "foundry",
+      "source_observed_at": "2026-09-21T11:51:18.379Z",
+      "source_displayed_value": "Apr 14, 2027, 9:00 AM",
+      "source_view": "Foundry deployment details: Model retirement date"
+    },
+    {
+      "catalog_key": "gpt-4o-transcribe-diarize",
+      "model_name": "gpt-4o-transcribe-diarize",
+      "model_version": "2025-10-15",
+      "model_retirement_date": "2027-04-15",
+      "source": "foundry",
+      "source_observed_at": "2026-09-21T11:54:12.623Z",
+      "source_displayed_value": "Apr 15, 2027, 9:00 AM",
+      "source_view": "Foundry deployment details: Model retirement date"
+    },
+    {
+      "catalog_key": "gpt-51",
+      "model_name": "gpt-5.1",
+      "model_version": "2025-11-13",
+      "model_retirement_date": "2027-05-15",
+      "source": "foundry",
+      "source_observed_at": "2026-09-21T11:50:06.851Z",
+      "source_displayed_value": "May 15, 2027, 9:00 AM",
+      "source_view": "Foundry deployment details: Model retirement date"
+    },
+    {
+      "catalog_key": "gpt-51-codex",
+      "model_name": "gpt-5.1-codex",
+      "model_version": "2025-11-13",
+      "model_retirement_date": "2027-05-15",
+      "source": "foundry",
+      "source_observed_at": "2026-09-21T11:48:02.183Z",
+      "source_displayed_value": "May 15, 2027, 9:00 AM",
+      "source_view": "Foundry deployment details: Model retirement date"
+    },
+    {
+      "catalog_key": "gpt-51-codex-mini",
+      "model_name": "gpt-5.1-codex-mini",
+      "model_version": "2025-11-13",
+      "model_retirement_date": "2027-05-15",
+      "source": "foundry",
+      "source_observed_at": "2026-09-21T11:53:31.319Z",
+      "source_displayed_value": "May 15, 2027, 9:00 AM",
+      "source_view": "Foundry deployment details: Model retirement date"
+    },
+    {
+      "catalog_key": "gpt-51-codex-max",
+      "model_name": "gpt-5.1-codex-max",
+      "model_version": "2025-12-04",
+      "model_retirement_date": "2027-05-18",
+      "source": "foundry",
+      "source_observed_at": "2026-09-21T11:52:34.292Z",
+      "source_displayed_value": "May 18, 2027, 9:00 AM",
+      "source_view": "Foundry deployment details: Model retirement date"
+    },
+    {
+      "catalog_key": "gpt-52",
+      "model_name": "gpt-5.2",
+      "model_version": "2025-12-11",
+      "model_retirement_date": "2027-06-08",
+      "source": "foundry",
+      "source_observed_at": "2026-09-21T11:49:01.280Z",
+      "source_displayed_value": "Jun 8, 2027, 9:00 AM",
+      "source_view": "Foundry deployment details: Model retirement date"
+    },
+    {
+      "catalog_key": "gpt-4o-mini-transcribe",
+      "model_name": "gpt-4o-mini-transcribe",
+      "model_version": "2025-12-15",
+      "model_retirement_date": "2027-06-15",
+      "source": "foundry",
+      "source_observed_at": "2026-09-21T11:47:03.421Z",
+      "source_displayed_value": "Jun 15, 2027, 9:00 AM",
+      "source_view": "Foundry deployment details: Model retirement date"
+    },
+    {
+      "catalog_key": "gpt-4o-mini-tts",
+      "model_name": "gpt-4o-mini-tts",
+      "model_version": "2025-12-15",
+      "model_retirement_date": "2027-06-15",
+      "source": "foundry",
+      "source_observed_at": "2026-09-21T11:52:34.316Z",
+      "source_displayed_value": "Jun 15, 2027, 9:00 AM",
+      "source_view": "Foundry deployment details: Model retirement date"
+    },
+    {
+      "catalog_key": "gpt-52-codex",
+      "model_name": "gpt-5.2-codex",
+      "model_version": "2026-01-14",
+      "model_retirement_date": "2027-07-13",
+      "source": "foundry",
+      "source_observed_at": "2026-09-21T11:50:06.823Z",
+      "source_displayed_value": "Jul 13, 2027, 9:00 AM",
+      "source_view": "Foundry deployment details: Model retirement date"
+    },
+    {
+      "catalog_key": "gpt-53-codex",
+      "model_name": "gpt-5.3-codex",
+      "model_version": "2026-02-24",
+      "model_retirement_date": "2027-08-24",
+      "source": "foundry",
+      "source_observed_at": "2026-09-21T11:49:38.227Z",
+      "source_displayed_value": "Aug 24, 2027, 9:00 AM",
+      "source_view": "Foundry deployment details: Model retirement date"
+    },
+    {
+      "catalog_key": "gpt-54",
+      "model_name": "gpt-5.4",
+      "model_version": "2026-03-05",
+      "model_retirement_date": "2027-09-02",
+      "source": "foundry",
+      "source_observed_at": "2026-09-21T11:51:18.351Z",
+      "source_displayed_value": "Sep 2, 2027, 9:00 AM",
+      "source_view": "Foundry deployment details: Model retirement date"
+    },
+    {
+      "catalog_key": "gpt-54-pro",
+      "model_name": "gpt-5.4-pro",
+      "model_version": "2026-03-05",
+      "model_retirement_date": "2027-09-07",
+      "source": "foundry",
+      "source_observed_at": "2026-09-21T11:47:18.626Z",
+      "source_displayed_value": "Sep 7, 2027, 9:00 AM",
+      "source_view": "Foundry deployment details: Model retirement date"
+    },
+    {
+      "catalog_key": "gpt-image-25-flare",
+      "model_name": "gpt-image-2.5-flare",
+      "model_version": "2026-09-08",
+      "model_retirement_date": "2027-09-08",
+      "source": "foundry",
+      "source_observed_at": "2026-09-21T11:53:31.249Z",
+      "source_displayed_value": "Sep 8, 2027, 9:00 AM",
+      "source_view": "Foundry deployment details: Model retirement date"
+    },
+    {
+      "catalog_key": "gpt-image-25-sunburst",
+      "model_name": "gpt-image-2.5-sunburst",
+      "model_version": "2026-09-08",
+      "model_retirement_date": "2027-09-08",
+      "source": "foundry",
+      "source_observed_at": "2026-09-21T11:52:34.270Z",
+      "source_displayed_value": "Sep 8, 2027, 9:00 AM",
+      "source_view": "Foundry deployment details: Model retirement date"
+    },
+    {
+      "catalog_key": "gpt-54-mini",
+      "model_name": "gpt-5.4-mini",
+      "model_version": "2026-03-17",
+      "model_retirement_date": "2027-09-21",
+      "source": "foundry",
+      "source_observed_at": "2026-09-21T11:44:42.571Z",
+      "source_displayed_value": "Sep 21, 2027, 9:00 AM",
+      "source_view": "Foundry deployment details: Model retirement date"
+    },
+    {
+      "catalog_key": "gpt-54-nano",
+      "model_name": "gpt-5.4-nano",
+      "model_version": "2026-03-17",
+      "model_retirement_date": "2027-09-21",
+      "source": "foundry",
+      "source_observed_at": "2026-09-21T11:49:01.227Z",
+      "source_displayed_value": "Sep 21, 2027, 9:00 AM",
+      "source_view": "Foundry deployment details: Model retirement date"
+    },
+    {
+      "catalog_key": "gpt-image-2",
+      "model_name": "gpt-image-2",
+      "model_version": "2026-04-21",
+      "model_retirement_date": "2027-10-21",
+      "source": "foundry",
+      "source_observed_at": "2026-09-21T11:49:38.285Z",
+      "source_displayed_value": "Oct 21, 2027, 9:00 AM",
+      "source_view": "Foundry deployment details: Model retirement date"
+    },
+    {
+      "catalog_key": "gpt-56-luna",
+      "model_name": "gpt-5.6-luna",
+      "model_version": "2026-07-09",
+      "model_retirement_date": "2028-01-11",
+      "source": "foundry",
+      "source_observed_at": "2026-09-21T11:51:18.326Z",
+      "source_displayed_value": "Jan 11, 2028, 9:00 AM",
+      "source_view": "Foundry deployment details: Model retirement date"
+    },
+    {
+      "catalog_key": "gpt-56-sol",
+      "model_name": "gpt-5.6-sol",
+      "model_version": "2026-07-09",
+      "model_retirement_date": "2028-01-11",
+      "source": "foundry",
+      "source_observed_at": "2026-09-21T11:49:23.705Z",
+      "source_displayed_value": "Jan 11, 2028, 9:00 AM",
+      "source_view": "Foundry deployment details: Model retirement date"
+    },
+    {
+      "catalog_key": "gpt-56-terra",
+      "model_name": "gpt-5.6-terra",
+      "model_version": "2026-07-09",
+      "model_retirement_date": "2028-01-11",
+      "source": "foundry",
+      "source_observed_at": "2026-09-21T11:51:54.956Z",
+      "source_displayed_value": "Jan 11, 2028, 9:00 AM",
+      "source_view": "Foundry deployment details: Model retirement date"
+    },
+    {
+      "catalog_key": "gpt-6-astra",
+      "model_name": "gpt-6-astra",
+      "model_version": "2026-09-03",
+      "model_retirement_date": "2028-01-11",
+      "source": "foundry",
+      "source_observed_at": "2026-09-21T11:51:54.985Z",
+      "source_displayed_value": "Jan 11, 2028, 9:00 AM",
+      "source_view": "Foundry deployment details: Model retirement date"
+    },
+    {
+      "catalog_key": "gpt-transcribe",
+      "model_name": "gpt-transcribe",
+      "model_version": "2026-07-28",
+      "model_retirement_date": "2028-02-01",
+      "source": "foundry",
+      "source_observed_at": "2026-09-21T11:42:48.799Z",
+      "source_displayed_value": "Feb 1, 2028, 9:00 AM",
+      "source_view": "Foundry deployment details: Model retirement date"
+    },
+    {
+      "catalog_key": "text-embedding-3-large",
+      "model_name": "text-embedding-3-large",
+      "model_version": "1",
+      "model_retirement_date": "2028-02-09",
+      "source": "foundry",
+      "source_observed_at": "2026-09-21T11:45:41.789Z",
+      "source_displayed_value": "Feb 9, 2028, 9:00 AM",
+      "source_view": "Foundry deployment details: Model retirement date"
+    },
+    {
+      "catalog_key": "text-embedding-3-small",
+      "model_name": "text-embedding-3-small",
+      "model_version": "1",
+      "model_retirement_date": "2028-02-09",
+      "source": "foundry",
+      "source_observed_at": "2026-09-21T11:49:23.740Z",
+      "source_displayed_value": "Feb 9, 2028, 9:00 AM",
+      "source_view": "Foundry deployment details: Model retirement date"
+    },
+    {
+      "catalog_key": "text-embedding-ada-002",
+      "model_name": "text-embedding-ada-002",
+      "model_version": "2",
+      "model_retirement_date": "2028-02-09",
+      "source": "foundry",
+      "source_observed_at": "2026-09-21T11:43:14.214Z",
+      "source_displayed_value": "Feb 9, 2028, 9:00 AM",
+      "source_view": "Foundry deployment details: Model retirement date"
+    }
+  ]
+}

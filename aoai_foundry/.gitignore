@@ -1,0 +1,12 @@
+# Local execution records and raw captures contain environment-specific IDs/URLs.
+/deployment-*.md
+/deployment-*.json
+/foundry_model_retirements*.md
+/foundry_model_retirements*.yaml
+/foundry_model_retirements*_source.json
+
+# Additional plan/log filenames; state and tfvars are ignored by ../.gitignore.
+*.tfplan
+*.plan
+*.log
+/plan.out

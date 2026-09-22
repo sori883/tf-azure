@@ -1,0 +1,96 @@
+# 2026-09-21: East US 2 の利用可能モデルとクォータを確認した再作成用設定。
+# 設定と確認結果: README.md
+location            = "eastus2"
+resource_group_name = "rg-foundry-model-retirement"
+project_name        = "model-retirement"
+foundry_name        = null
+
+# 元のカタログ43件のうち37件を選択。
+# 廃止移行中の codex-mini / o1 / o3 / o3-mini / o4-mini と、
+# 確認したサブスクリプションで利用できなかった o3-pro は除外する。
+model_keys = [
+  "gpt-41",
+  "gpt-41-mini",
+  "gpt-41-nano",
+  "gpt-4o-2024-11-20",
+  "gpt-4o-mini-transcribe",
+  "gpt-4o-mini-tts",
+  "gpt-4o-transcribe",
+  "gpt-4o-transcribe-diarize",
+  "gpt-5",
+  "gpt-5-mini",
+  "gpt-5-nano",
+  "gpt-5-pro",
+  "gpt-51",
+  "gpt-51-codex",
+  "gpt-51-codex-max",
+  "gpt-51-codex-mini",
+  "gpt-52",
+  "gpt-52-codex",
+  "gpt-53-codex",
+  "gpt-54",
+  "gpt-54-mini",
+  "gpt-54-nano",
+  "gpt-54-pro",
+  "gpt-56-luna",
+  "gpt-56-sol",
+  "gpt-56-terra",
+  "gpt-6-astra",
+  "gpt-chat-latest",
+  "gpt-image-1",
+  "gpt-image-15",
+  "gpt-image-2",
+  "gpt-image-25-flare",
+  "gpt-image-25-sunburst",
+  "gpt-transcribe",
+  "text-embedding-3-large",
+  "text-embedding-3-small",
+  "text-embedding-ada-002",
+]
+
+default_sku_name       = "GlobalStandard"
+default_capacity       = 1
+version_upgrade_option = "NoAutoUpgrade"
+
+# モデル版は East US 2 の Azure モデル一覧と照合済み。API バージョンではない。
+# 2026-09-21にデプロイを確認した37モデルの版を固定。
+# image-2.5 の実 API 上の版は 2026-09-08（ドキュメント上の 09-09 と異なる）。
+model_overrides = {
+  "gpt-41"                    = { model_version = "2025-04-14" }
+  "gpt-41-mini"               = { model_version = "2025-04-14" }
+  "gpt-41-nano"               = { model_version = "2025-04-14" }
+  "gpt-4o-2024-11-20"         = { model_version = "2024-11-20" }
+  "gpt-4o-mini-transcribe"    = { model_version = "2025-12-15" }
+  "gpt-4o-mini-tts"           = { model_version = "2025-12-15" }
+  "gpt-4o-transcribe"         = { model_version = "2025-03-20" }
+  "gpt-4o-transcribe-diarize" = { model_version = "2025-10-15" }
+  "gpt-5"                     = { model_version = "2025-08-07" }
+  "gpt-5-mini"                = { model_version = "2025-08-07" }
+  "gpt-5-nano"                = { model_version = "2025-08-07" }
+  "gpt-5-pro"                 = { model_version = "2025-10-06" }
+  "gpt-51"                    = { model_version = "2025-11-13" }
+  "gpt-51-codex"              = { model_version = "2025-11-13" }
+  "gpt-51-codex-max"          = { model_version = "2025-12-04" }
+  "gpt-51-codex-mini"         = { model_version = "2025-11-13" }
+  "gpt-52"                    = { model_version = "2025-12-11" }
+  "gpt-52-codex"              = { model_version = "2026-01-14" }
+  "gpt-53-codex"              = { model_version = "2026-02-24" }
+  "gpt-54"                    = { model_version = "2026-03-05" }
+  "gpt-54-mini"               = { model_version = "2026-03-17" }
+  "gpt-54-nano"               = { model_version = "2026-03-17" }
+  "gpt-54-pro"                = { model_version = "2026-03-05" }
+  "gpt-56-luna"               = { model_version = "2026-07-09" }
+  "gpt-56-sol"                = { model_version = "2026-07-09" }
+  "gpt-56-terra"              = { model_version = "2026-07-09" }
+  "gpt-6-astra"               = { model_version = "2026-09-03" }
+  "gpt-chat-latest"           = { model_version = "2026-08-06" }
+  "gpt-image-1"               = { model_version = "2025-04-15" }
+  "gpt-image-15"              = { model_version = "2025-12-16" }
+  "gpt-image-2"               = { model_version = "2026-04-21" }
+  "gpt-image-25-flare"        = { model_version = "2026-09-08" }
+  "gpt-image-25-sunburst"     = { model_version = "2026-09-08" }
+  "gpt-transcribe"            = { model_version = "2026-07-28" }
+  "text-embedding-3-large"    = { model_version = "1" }
+  "text-embedding-3-small"    = { model_version = "1" }
+  "text-embedding-ada-002"    = { model_version = "2" }
+}
